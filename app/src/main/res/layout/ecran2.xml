@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fond">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="192dp" />
+
+    <ImageView
+        android:id="@+id/imagetitre"
+        android:layout_width="229dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/joue_avec_moi" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="271dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/normal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginVertical="5dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_texte"
+            android:layout_marginHorizontal="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/faim"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/faim" />
+
+            <TextView
+                android:id="@+id/textHungry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="15dp"
+                android:text="100/100"
+                android:textColor="#707070"
+                android:textSize="20sp"
+               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_texte"
+            android:layout_marginHorizontal="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/bonheur"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/smile" />
+
+            <TextView
+                android:id="@+id/textHappyness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="15dp"
+                android:text="100/100"
+                android:textColor="#707070"
+                android:textSize="20sp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Messages"
+        android:textColor="#707070"
+        android:background="@drawable/custom_texte"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginVertical="5dp"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Caresse"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/custome_button"
+            android:color="#D6EBF8"
+            android:text="Caresse"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+        <Button
+            android:id="@+id/Jouer"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/custome_button"
+            android:color="#D6EBF8"
+            android:text="Jouer"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+        <Button
+            android:id="@+id/Nourrir"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/custome_button"
+            android:color="#D6EBF8"
+            android:text="Nourrir"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="73dp"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/AllerEcran1"
+            android:layout_width="145dp"
+            android:layout_height="36dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custome_button"
+            android:color="#D6EBF8"
+            android:text="Home"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+        <Button
+            android:id="@+id/AllerEcran3"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/custome_button"
+            android:color="#D6EBF8"
+            android:text="Configuration"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+    </LinearLayout>
+
+</LinearLayout>

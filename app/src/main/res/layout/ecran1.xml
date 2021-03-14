@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fond">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="170dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="307dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image_e1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/AllerEcran2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:color="#D6EBF8"
+            android:background="@drawable/custome_button"
+            android:text="Joué"
+            android:textColor="#707070"
+            android:textSize="12sp"
+            app:backgroundTint="#D6EBF8" />
+
+        <Button
+            android:id="@+id/AllerEcran3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:color="#D6EBF8"
+            android:background="@drawable/custome_button"
+            android:text="Configuration"
+            android:textColor="#707070"
+            android:textSize="12sp"
+            app:backgroundTint="#D6EBF8" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fond">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="171dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/confi" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textNT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#707070"
+            android:text="Nom du tamagotchi :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextTama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_texte"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Nom de votre Tamagoshi"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textColor="#707070"
+            android:textColorHint="#707070"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/textN"
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:padding="5dp"
+            android:textColor="#707070"
+            android:text="Votre nom :"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/editTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Votre nom"
+            android:textColorHint="#707070"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="#707070"
+            android:inputType="textPersonName"
+            android:background="@drawable/custom_texte"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="140dp"
+        android:layout_marginVertical="5dp">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:padding="5dp"
+            android:text="Music :"
+            android:textColor="#707070"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Init"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginHorizontal="40dp"
+        android:color="#D6EBF8"
+        android:background="@drawable/custome_button"
+        android:text="Réinitialiser"
+        android:textColor="#707070"
+        android:textSize="13sp"
+        app:backgroundTint="#D6EBF8" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/AllerEcran1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:color="#D6EBF8"
+            android:background="@drawable/custome_button"
+            android:text="Home"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+        <Button
+            android:id="@+id/AllerEcran2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:color="#D6EBF8"
+            android:background="@drawable/custome_button"
+            android:text="Joué"
+            android:textColor="#707070"
+            android:textSize="13sp"
+            app:backgroundTint="#D6EBF8" />
+
+    </LinearLayout>
+</LinearLayout>
